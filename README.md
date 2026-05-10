@@ -6,7 +6,6 @@ Pipeline de dados que extrai indicadores econômicos oficiais do Banco Central d
 
 ![Arquitetura do Pipeline](docs/arquitetura_bacen.png)
 
-![Arquitetura do Pipeline](docs/arquitetura_bacen.png)
 
 **Ingestão:** Cloud Function Python consome a API SGS do Banco Central (gratuita, sem autenticação), extraindo os últimos 10 registros de 6 indicadores econômicos.
 
